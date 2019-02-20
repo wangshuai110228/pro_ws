@@ -185,7 +185,7 @@
 
     //查询
     $("#myTable").datagrid({
-        url:"<%=request.getContextPath()%>/queryPinLun",
+        url:"<%=request.getContextPath()%>/queryPinLunee",
         columns:[[
             {field:'check',checkbox:true},
             {field:'id',title:'编号'},
